@@ -3,8 +3,9 @@
 ## Disclaimer: This Project is my Uni project. I created this repo to explain the project architecture to my team. If you find it helpfull great but dont fully rely on it.
 
 > I only added the project directory here.
-```
+
 ## Now about the architecture
+```
 .
 ├── LICENSE
 ├── README.md
@@ -96,3 +97,13 @@ namespace TimeIsHoney.TIH.Engine.Entities
     }
 }
 ```
+It is also a good practice to use interfaces to define empty properties and methods. It is also considered good practice to start with a capital "I" to name interfaces. It'll allow you and others to know that this specific file is not a class but an interface. Following is an example code:
+```csharp
+interface ILivingEntity
+{
+    void entityMovement();
+    void entityJump();
+}
+```
+Everything defined in an interface are public. [Here](https://www.w3schools.com/cs/cs_interface.asp) you can read more about interfaces.
+
