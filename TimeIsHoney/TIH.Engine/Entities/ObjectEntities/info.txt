@@ -1,0 +1,14 @@
+﻿I created Object Entities directory inside Entites directory beause objects are
+also entities, nonliving entities. But I'm not sure how we would want to render
+objects that's why I don't see any appropriate place for them. We might want to
+put them outside the Entities directory because objects have different
+characteristics.
+Same goes for honeycomb hexa blocks. Different properties and different rendering.
+
+Objects are as follows:
+    Flowers -> different flowers, sizes, colors etc
+    Trees -> different trees, sizes, colors etc
+    Stones -> different stones, sizes, colors etc
+Also:
+    Honeycomb cells -> hexa blocks, different sizes, colors etc
+

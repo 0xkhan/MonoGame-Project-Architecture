@@ -1,0 +1,1 @@
+﻿Example File: Renderer for object 2.
