@@ -105,5 +105,6 @@ interface ILivingEntity
     void entityJump();
 }
 ```
-Everything defined in an interface are public. [Here](https://www.w3schools.com/cs/cs_interface.asp) you can read more about interfaces.
-
+Everything defined in an interface are public. [Here](https://www.w3schools.com/cs/cs_interface.asp) you can read more about interfaces.<br/>
+### What is Windows directory for you ask?
+Windows directory is meant for windows, menus and popups. We might also want screens directory to handle screens. We might have load screen, menu screen, launch screen and the main game screen. But we'll see how our architecture evolves.
