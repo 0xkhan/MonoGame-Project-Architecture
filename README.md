@@ -4,7 +4,7 @@
 
 > I only added the project directory here.
 
-## Now about the architecture
+### The Architecture
 ```
 .
 ├── LICENSE
