@@ -143,7 +143,7 @@ namespace DRYDemoLibraryTest
 ```
 
 ### Now it's time for the main Game mechanics
-So the main Game logic goes inside `TIH.GameLogic` directory. Inside this directory we'll write everything which has to do with pure game logic e.g displaying the main menu on the screen. Generating menu buttons, adding specific sprites for the buttons, adding hovers to buttons. Defining approriat methods for them e.g `Draw(), Update(), newGameButton(), loadGameButton(), quitGameButton()`. That's why we have `Menu` folder inside `TIH.GameLogic`. Following is the folder tree.
+So the main Game logic goes inside `TIH.GameLogic` directory. Inside this directory we'll write everything that has to do with pure game logic e.g displaying the main menu on the screen. Generating menu buttons, adding specific sprites for the buttons, adding hovers to buttons. Defining approriat methods for them e.g `Draw(), Update(), newGameButton(), loadGameButton(), quitGameButton()`. That's why we have `Menu` folder inside `TIH.GameLogic`. Following is the folder tree.
 ```
 .
 ├── InputManager.cs
