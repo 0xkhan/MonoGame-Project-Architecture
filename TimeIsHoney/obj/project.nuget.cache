@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BIm0lOnTEiTHm+j2ZBRGXKixcjv8VMySLQGp16HrpcZqgSPwHzrpI1/FZvnJpT6VGNKrq2rLmtyJ2RgA9YR+Qw==",
+  "dgSpecHash": "m83TST82hriXe0TZDlfsV3MMdPQa8XCreMN9+GQfEpF+SYH/W02UDL7NGZnQbEaA016rJALPXTFK+b5gCt7Y2g==",
   "success": true,
-  "projectFilePath": "/Users/khani/Projects/TimeIsHoney/TimeIsHoney/TimeIsHoney.csproj",
+  "projectFilePath": "/Users/khani/Documents/Repos/MonoGame-Project-Architecture/TimeIsHoney/TimeIsHoney.csproj",
   "expectedPackageFiles": [
     "/Users/khani/.nuget/packages/monogame.content.builder.task/3.8.0.1641/monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
     "/Users/khani/.nuget/packages/monogame.framework.desktopgl/3.8.0.1641/monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"

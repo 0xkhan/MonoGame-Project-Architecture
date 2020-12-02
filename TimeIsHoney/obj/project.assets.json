@@ -179,11 +179,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/khani/Projects/TimeIsHoney/TimeIsHoney/TimeIsHoney.csproj",
+      "projectUniqueName": "/Users/khani/Documents/Repos/MonoGame-Project-Architecture/TimeIsHoney/TimeIsHoney.csproj",
       "projectName": "TimeIsHoney",
-      "projectPath": "/Users/khani/Projects/TimeIsHoney/TimeIsHoney/TimeIsHoney.csproj",
+      "projectPath": "/Users/khani/Documents/Repos/MonoGame-Project-Architecture/TimeIsHoney/TimeIsHoney.csproj",
       "packagesPath": "/Users/khani/.nuget/packages/",
-      "outputPath": "/Users/khani/Projects/TimeIsHoney/TimeIsHoney/obj/",
+      "outputPath": "/Users/khani/Documents/Repos/MonoGame-Project-Architecture/TimeIsHoney/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/khani/.config/NuGet/NuGet.Config"
