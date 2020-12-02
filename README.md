@@ -1,6 +1,6 @@
 # MonoGame-Project-Architecture
 
-## Disclaimer: This Project is my Uni project. I created this repo to explain the project architecture to my team. If you find it helpfull great but dont fully rely on it.
+## Disclaimer: This is my Uni project. I created this repo to explain the project architecture to my team. If you find it helpfull great but don't fully rely on it.
 
 > I only added the project directory here.
 
