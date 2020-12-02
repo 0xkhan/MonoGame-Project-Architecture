@@ -113,7 +113,7 @@ Everything defined in an interface are public. [Here](https://www.w3schools.com/
 Windows directory is meant for windows, menus and popups. We might also want screens directory to handle screens. We might have load screen, menu screen, launch screen and the main game screen. But we'll see how our architecture evolves.
 
 ### What is TIH.Engine.Test for?
-`TIH.Engine.Test` is used for testing the engine. We'll use unit tests to test the engine automatically. We'll never do testing manually imagine building the project, compiling and running the build and then manually testing everytime you make changes. There are some unit testing frameworks for .Net but the popular ones are XUnit and NUnit. Following is a example of XUnit.<br/>
+`TIH.Engine.Test` is used for testing the engine. We'll use unit tests to test the engine automatically. We'll never do testing manually &#128556; Imagine building the project, compiling and running the build and then manually testing everytime you make changes. So yeah, it's better to use unit tests. There are some unit testing frameworks for .Net but the popular ones are XUnit and NUnit. Following is a example of XUnit.<br/>
 Here is their [github](https://github.com/xunit/xunit). You can install it through `nuget` inside your solution.
 ```csharp
 using System;
