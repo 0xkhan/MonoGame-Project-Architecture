@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{9B9347CE-F01D-4141-A2AC-E862972D8FFF}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TimeIsHoney" expanded="True" selected="True">
+            <Node name="TimeIsHoney" expanded="True">
+              <Node name="TIH.GameLogic" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TimeIsHoney PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
