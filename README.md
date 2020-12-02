@@ -24,8 +24,8 @@
 │   └── obj
 └── TimeIsHoney.sln
 ```
-The above project tree shows the current tree and it'll evolve through time. TimeIsHoney is the project name. Inside the project directory there are some standard files that every MonoGame project have. However the Game1.cs class has been renamed to TIHGame.cs. There is also a new directory called TIH.Engine. This is the directory we'll talk about.<br />
-TIH.Engine is the core of the project. It contains the very Core logic of the project. On top of the engine will base our game logic. The engine is like a general framework on top of which we can write any game. But in our case it's very specific to our project as we don't have enough time to develop a general purpose engine.
+The above project tree shows the current tree and it'll evolve through time. TimeIsHoney is the project name. Inside the project directory there are some standard files that every MonoGame project have. However the Game1.cs class has been renamed to TIHGame.cs. There is also a new directory called `TIH.Engine`. This is the directory we'll talk about.<br />
+`TIH.Engine` is the core of the project. It contains the very Core logic of the project. On top of the engine will base our game logic. The engine is like a general framework on top of which we can write any game. But in our case it's very specific to our project as we don't have enough time to develop a general purpose engine.
 
 ### Whats inside TIH.Engine directory?
 ```
@@ -40,7 +40,7 @@ TIH.Engine is the core of the project. It contains the very Core logic of the pr
 ├── Windows
 └── World
 ```
-If we look inside the TIH.Engine directory there are other specific directories. Each directory will hold the code for a specific mechanism. For example Entities will only take care of all the entities we have in our project living and nonliving. Input will handle all input events. Physics is for physics engine and collision detection etc. Below you can see the whole tree for the engine.
+If we look inside the `TIH.Engine` directory there are other specific directories. Each directory will hold the code for a specific mechanism. For example Entities will only take care of all the entities we have in our project living and nonliving. Input will handle all input events. Physics is for physics engine and collision detection etc. Below you can see the whole tree for the engine.
 ```
 .
 ├── Entities
@@ -113,7 +113,7 @@ Everything defined in an interface are public. [Here](https://www.w3schools.com/
 Windows directory is meant for windows, menus and popups. We might also want screens directory to handle screens. We might have load screen, menu screen, launch screen and the main game screen. But we'll see how our architecture evolves.
 
 ### What is TIH.Engine.Test for?
-TIH.Engine.Test is used for testing the engine. We'll use unit tests to test the engine automatically. We'll never do testing manually imagine building the project, compiling and running the build and then manually testing everytime you make changes. There are some unit testing frameworks for .Net but the popular ones are XUnit and NUnit. Following is a example of XUnit.<br/>
+`TIH.Engine.Test` is used for testing the engine. We'll use unit tests to test the engine automatically. We'll never do testing manually imagine building the project, compiling and running the build and then manually testing everytime you make changes. There are some unit testing frameworks for .Net but the popular ones are XUnit and NUnit. Following is a example of XUnit.<br/>
 Here is their [github](https://github.com/xunit/xunit). You can install it through `nuget` inside your solution.
 ```csharp
 using System;
@@ -140,4 +140,20 @@ namespace DRYDemoLibraryTest
         }
     }
 }
+```
+
+### Now it's time for the main Game mechanics
+So the main Game logic goes inside `TIH.GameLogic` directory. Inside this directory we'll write everything which has to do with pure game logic e.g displaying the main menu on the screen. Generating menu buttons, adding specific sprites for the buttons, adding hovers to buttons. Defining approriat methods for them e.g `Draw(), Update(), newGameButton(), loadGameButton(), quitGameButton()`. That's why we have `Menu` folder inside `TIH.GameLogic`. Following is the folder tree.
+```
+.
+├── InputManager.cs
+├── Menu
+│   ├── Controles
+│   │   └── Buttons.cs
+│   └── States
+│       ├── GameState.cs
+│       ├── MenuState.cs
+│       └── State.cs
+├── ScreenManager.cs
+└── WindowManager.cs
 ```
