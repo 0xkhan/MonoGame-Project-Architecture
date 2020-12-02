@@ -15,6 +15,8 @@
 │   ├── Icon.ico
 │   ├── Program.cs
 │   ├── TIH.Engine
+│   ├── TIH.Engine.Test
+│   ├── TIH.GameLogic
 │   ├── TIHGame.cs
 │   ├── TimeIsHoney.csproj
 │   ├── app.manifest
@@ -67,7 +69,6 @@ If we look inside the TIH.Engine directory there are other specific directories.
 │   ├── SoundEffectVolume.cs
 │   ├── UserSettings.cs
 │   └── WindowMode.cs
-├── WindowManager.cs
 ├── Windows
 │   ├── AchievementsMenuWindow.cs
 │   ├── FlowerPopupWindow.cs
