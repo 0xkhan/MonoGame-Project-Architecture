@@ -111,3 +111,32 @@ interface ILivingEntity
 Everything defined in an interface are public. [Here](https://www.w3schools.com/cs/cs_interface.asp) you can read more about interfaces.<br/>
 ### What is Windows directory for you ask?
 Windows directory is meant for windows, menus and popups. We might also want screens directory to handle screens. We might have load screen, menu screen, launch screen and the main game screen. But we'll see how our architecture evolves.
+
+### What is TIH.Engine.Test for?
+TIH.Engine.Test is used for testing the engine. We'll use unit tests to test the engine automatically. We'll never do testing manually imagine building the project, compiling and running the build and then manually testing everytime you make changes. There are some unit testing frameworks for .Net but the popular ones are XUnit and NUnit.
+```csharp
+using System;
+using Xunit;
+
+namespace DRYDemoLibraryTest
+{
+    public class EmployeeProcessorTest
+    {
+        [Theory]
+        [InlineData("Jack", "Barker", "JackBark")]
+        [InlineData("Tom", "Johnny", "TomxJohn")]
+        [InlineData("Ng", "Li", "NgxxLixx")]
+        public void GenerateEmployeeId_ShouldCalculate(string firstName, string lastName, string expectedStart)
+        {
+            // Arrange
+            EmployeeProcessor processor = new EmployeeProcessor();
+
+            // Act
+            string actualStart = processor.GenerateEmployeeID(firstName, lastName).Substring(0, expectedStart.Length);
+
+            // Assert
+            Assert.Equal(expectedStart, actualStart);
+        }
+    }
+}
+```
