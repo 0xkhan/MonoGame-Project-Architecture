@@ -26,6 +26,8 @@
 ```
 The above project tree shows the current tree and it'll evolve through time. TimeIsHoney is the project name. Inside the project directory there are some standard files that every MonoGame project have. However the Game1.cs class has been renamed to TIHGame.cs. There is also a new directory called TIH.Engine. This is the directory we'll talk about.<br />
 TIH.Engine is the core of the project. It contains the very Core logic of the project. On top of the engine will base our game logic. The engine is like a general framework on top of which we can write any game. But in our case it's very specific to our project as we don't have enough time to develop a general purpose engine.
+
+### Whats inside TIH.Engine directory?
 ```
 .
 ├── Entities
