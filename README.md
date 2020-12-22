@@ -49,8 +49,8 @@ If we look inside the `TIH.Engine` directory there are other specific directorie
 │   ├── KillerbeeEntity.cs
 │   ├── LarvabeeEntity.cs
 │   ├── LivingEntity.cs
-│   ├── ObjectEntities
-│   ├── ObjectEntity.cs
+│   ├── NonlivingEntities
+│   ├── NonlivingEntity.cs
 │   ├── QueenbeeEntity.cs
 │   ├── WaspEntity.cs
 │   └── WorkerbeeEntity.cs
@@ -151,7 +151,6 @@ So the main Game logic goes inside `TIH.GameLogic` directory. Inside this direct
 │   ├── Controles
 │   │   └── Buttons.cs
 │   └── States
-│       ├── GameState.cs
 │       ├── MenuState.cs
 │       └── State.cs
 ├── ScreenManager.cs
